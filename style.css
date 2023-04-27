@@ -29,7 +29,7 @@
     background: red;
     transition: all 1s;
 }
-.ex-6-img, .ex-7-img, .ex-8-img {
+.ex-6-img, .ex-7-img, .ex-8-img{
     width: 500px;
     transition: 2s;
 }
@@ -37,6 +37,7 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 2s;
 }
 .ex-10-icon {
     font-size: 60px;
@@ -120,4 +121,19 @@
     filter: grayscale(0.6) sepia(0.5);
 }
 /* FINE ESERCIZIO 7 */
+
+/* ESERCIZIO 8 */
+.ex-8-img:hover{
+    filter: grayscale(0.6) sepia(0.5);
+    border-radius: 20px;
+}
+/* FINE ESERCIZIO 8 */
+
+/* ESERCIZIO 9 */
+.ex-9-img:hover{
+    filter: grayscale(0.6) sepia(0.5);
+    border-radius: 20px;
+    transform: scale(1.5);
+}
+/* FINE ESERCIZIO 9 */
 /* END ANIMATION EFFECTS */
