@@ -20,15 +20,18 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: opacity 1s;
 }
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
+    transition: all 1s;
 }
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
+    transition: 2s;
 }
 
 .ex-9-img {
@@ -89,4 +92,32 @@
     border-radius: 100%;
 }
 /* FINE ESERCIZIO 3 */
+
+/* ESERCIZIO 4 */
+.ex-4-square:hover{
+    opacity: 0;
+}
+/* FINE ESERCIZIO 4 */
+
+/* ESERCIZIO 5 */
+.ex-5-square:hover{
+    transform: scale(2);
+}
+
+.ex-5-square:active{
+    transform: scale(0.5);
+}
+/* FINE ESERCIZIO 5 */
+
+/* ESERCIZIO 6 */
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+/* FINE ESERCIZIO 6 */
+
+/* ESERCIZIO 7 */
+.ex-7-img:hover{
+    filter: grayscale(0.6) sepia(0.5);
+}
+/* FINE ESERCIZIO 7 */
 /* END ANIMATION EFFECTS */
